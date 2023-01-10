@@ -8,39 +8,18 @@
   </head>
   <body>
     <form class="search-form" id="search-form">
-      <div class="search-wrapper">
-        <input
-          class="search-input"
-          type="text"
-          name="searchQuery"
-          autocomplete="off"
-          placeholder="Search images..."
-        />
-        <button class="search-btn" type="submit" disabled>Search</button>
-      </div>
-      <div class="photo-card">
-        <img
-          src="https://pixabay.com/get/g82dcbd07c969fb02b61afc6d41aa55e7e5eae124fa801aedb2141a73919f5f6a0a25f2b380d7564c110ea190c62a6d07_640.jpg"
-          alt=""
-          loading="lazy"
-        />
-        <div class="info">
-          <p class="info-item">
-            <b>Likes</b>
-          </p>
-          <p class="info-item">
-            <b>Views</b>
-          </p>
-          <p class="info-item">
-            <b>Comments</b>
-          </p>
-          <p class="info-item">
-            <b>Downloads</b>
-          </p>
-        </div>
-      </div>
-      <div class="gallery"></div>
+      <input
+        type="text"
+        name="searchQuery"
+        autocomplete="off"
+        placeholder="Search images..."
+      />
+      <button type="submit" disabled>Search</button>
     </form>
+
+    <div class="gallery"></div>
+
+    <div id="footer"></div>
     <script src="index.js" type="module"></script>
   </body>
 </html>
