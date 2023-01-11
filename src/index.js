@@ -24,7 +24,7 @@ const queryParams = {
   orientation: 'horizontal',
   image_type: 'photo',
   safesearch: true,
-  per_page: 20,
+  per_page: 40,
 };
 
 const observer = new IntersectionObserver(onReachedBottom);
