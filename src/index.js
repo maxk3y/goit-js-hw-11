@@ -58,7 +58,7 @@ function getImageHtml(hit) {
 
 function getUrl(params) {
   return (
-    'https://pixabay.com/api?' +
+    'https://pixabay.com/api/?' +
     Object.entries(params)
       .map(([k, v]) => `${k}=${v}`)
       .join('&')
